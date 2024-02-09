@@ -1,6 +1,20 @@
-. {
-    margin: 0,
-};
-Navbar {
-    position: fixed
-};
+html {
+    margin: 0;
+}
+.navbar {
+    position: relative;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    font-size: 15px;
+}
+
+.content1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
